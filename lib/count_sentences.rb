@@ -28,6 +28,6 @@ class String
 
   def count_sentences
     "one. two. three?".split.count
-    "This, well, is a sentence. This is too!! And so is this, I think? Woo...".split.count
+    "This, well, is a sentence. This is too!! And so is this, I think? Woo..."
   end
 end
