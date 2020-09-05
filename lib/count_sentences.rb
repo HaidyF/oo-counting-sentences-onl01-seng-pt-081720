@@ -7,7 +7,6 @@ class String
     return true
   else
     return false
-self.end_with?(".")
   end
 
   def question?
