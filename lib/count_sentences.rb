@@ -15,7 +15,7 @@ class String
   end
 
   def count_sentences
-    puts "one. two. three?".split.count
+   "one. two. three?".split.count
 
   end
 end
