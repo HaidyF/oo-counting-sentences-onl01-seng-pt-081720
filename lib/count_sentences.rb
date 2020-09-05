@@ -19,5 +19,6 @@ class String
   end
 
   def count_sentences_words
-    "This, well, is a sentence. This is too!! And so is this, I think? Woo..."
+  self.split(/[.!?]/).map{|x| !(x.match(/\w+/).nil?)}.reject{|x| x == false}.size
+end
 end
