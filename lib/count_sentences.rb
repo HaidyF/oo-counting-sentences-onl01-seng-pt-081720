@@ -18,7 +18,4 @@ class String
   self.split(/[.?!]+/).count
   end
 
-  def count_sentences_words
-    self.split(/[.!?]/).map{|x| !(x.match(/\w+/).nil?)}.reject{|x| x == false}.size
-end
 end
