@@ -28,6 +28,5 @@ class String
 
   def count_sentences
     "one. two. three?".split.count
-    " ".count
   end
 end
